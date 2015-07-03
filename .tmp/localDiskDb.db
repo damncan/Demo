@@ -1,0 +1,84 @@
+{
+  "data": {
+    "data": [
+      {
+        "start_date": "2013-04-01 00:00:00",
+        "duration": "5",
+        "text": "Project #1",
+        "progress": "0.8",
+        "sortorder": "20",
+        "parent": "0",
+        "open": "true",
+        "id": 3,
+        "createdAt": "2015-07-03T14:07:38.121Z",
+        "updatedAt": "2015-07-03T14:07:38.121Z"
+      },
+      {
+        "start_date": "2013-04-06 00:00:00",
+        "duration": "4",
+        "text": "Task #1",
+        "progress": "0.5",
+        "sortorder": "10",
+        "parent": "1",
+        "open": "true",
+        "id": 4,
+        "createdAt": "2015-07-03T14:08:15.774Z",
+        "updatedAt": "2015-07-03T14:08:15.774Z"
+      },
+      {
+        "start_date": "2013-04-06 00:00:00",
+        "duration": "4",
+        "text": "Task #1",
+        "progress": "0.5",
+        "sortorder": "10",
+        "parent": "3",
+        "open": "true",
+        "id": 5,
+        "createdAt": "2015-07-03T14:08:50.576Z",
+        "updatedAt": "2015-07-03T14:08:50.576Z"
+      }
+    ]
+  },
+  "schema": {
+    "data": {
+      "start_date": {
+        "type": "string"
+      },
+      "duration": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "progress": {
+        "type": "string"
+      },
+      "sortorder": {
+        "type": "string"
+      },
+      "parent": {
+        "type": "string"
+      },
+      "open": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "data": {
+      "id": 5
+    }
+  }
+}
